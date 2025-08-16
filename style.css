@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+header {
+    color: #989D9C;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-left: 80px;   
+}
+.titulo {
+    margin-right: 24px;
+    cursor: pointer;
+}
+.title-button {
+    width: 130px;
+    height: 41px;
+    background-color: #665AE1;
+    font-size: 24px;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+img {
+    width: 568px;
+    height: 500px;
+    margin: 170px 0;
+    margin-left: 300px;
+    display: inline-block;
+}
+.text-box {
+    display: inline-block;
+    position: absolute;
+    margin: 200px 0 0 250px;
+}
+h1 {
+    color: #515151;
+    font-size: 100px;
+    font-weight: 900;
+}
+h2 {
+    color: #515151;
+    font-size: 58px;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+p {
+    color: #848484;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.button-explore {
+    width: 239px;
+    height: 64px;
+    background-color: #ADFF00;
+    border-radius: 50px;
+    color: #000;
+    font-size: 28px;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
+.titulo:hover {
+    opacity: 0.6;
+    }
+
+.titulo:active {
+    opacity: 0.8;
+}
+.title-button:hover {
+    opacity: 0.6;
+    }
+
+.title-button:active {
+    opacity: 0.8;
+}
+.button-explore:hover {
+    opacity: 0.6;
+    }
+
+.button-explore:active {
+    opacity: 0.8;
+}
+
+@media screen  and (max-width: 900px) {
+    header {
+        display: none;
+    }
+    img {
+        width: 354px;
+        height: 250px;
+        position: fixed;
+        top: 0px;
+        right: 50%;
+        transform: translateX(180px);
+    }
+    .text-box {
+        display: block;
+    }
+    h1 {
+        width: 263px;
+        height: 52px;
+        font-size: 50px;
+        position: fixed;
+        top: 460px;
+        right: 50%;
+        transform: translateX(136px);
+    }
+    h2 {
+        width: 250px;
+        font-size: 30px;
+        position: fixed;
+        top: 523px;
+        right: 53%;
+        transform: translateX(149px);
+    }
+
+    p {
+        display: none;
+    }
+    .button-explore {
+        width: 239px;
+        height: 64px;
+        position: fixed;
+        top: 577px;
+        right: 53%;
+        transform: translateX(134px);
+    }
+    
+}
